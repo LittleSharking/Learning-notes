@@ -16,7 +16,7 @@
 一些基本的张量的定义方式
 
 <img width="474" height="456" alt="6ba1f06eec3fc25606712e55f2da74e7" src="https://github.com/user-attachments/assets/337681c2-5513-41a7-ab76-907572afd2ce" />
-<img width="475" height="557" alt="8bc0c5a8c3c9064099bfcb8a4018263d" src="https://github.com/user-attachments/assets/1c0ff82b-8185-4091-8f96-f87a75e2eb16" />
+<img width="475" height="456" alt="8bc0c5a8c3c9064099bfcb8a4018263d" src="https://github.com/user-attachments/assets/1c0ff82b-8185-4091-8f96-f87a75e2eb16" />
 
 ##### 1.1.2 定义操作
 （1）一些基本的对张量的操作
@@ -27,12 +27,12 @@
 
 <img width="498" height="580" alt="16a691942afbf3c7fb3644b9d678f385" src="https://github.com/user-attachments/assets/e3af906d-c250-4692-a71b-bb9d219fc27e" />
 
-<img width="492" height="530" alt="04eed12a3909461f935cd4a60a9363f2" src="https://github.com/user-attachments/assets/26bb0de0-d0a4-40fd-9916-041c48ad8933" />
+<img width="492" height="580" alt="04eed12a3909461f935cd4a60a9363f2" src="https://github.com/user-attachments/assets/26bb0de0-d0a4-40fd-9916-041c48ad8933" />
 
 #### 1.2 螺旋数据分类
 ##### 1.2.1 构建线性模型分类
 
-<img width="657" height="375" alt="879966739680a50e64423e68a81bb9f0" src="https://github.com/user-attachments/assets/43a8c849-b725-438a-9b3d-98f1b4420111" />
+<img width="657" height="550" alt="879966739680a50e64423e68a81bb9f0" src="https://github.com/user-attachments/assets/43a8c849-b725-438a-9b3d-98f1b4420111" />
 
 <img width="654" height="550" alt="a4976186528acff7cec5437338ae5a00" src="https://github.com/user-attachments/assets/5b782134-b3cb-4e8d-896e-21674dc9477e" />
 
@@ -59,3 +59,6 @@ Softmax函数主要用于多分类任务的输出层，其作用是将神经网�
 Adam优化器因其自适应学习率特性，通常能实现更快的收敛速度且对超参数不敏感，在实践中更受欢迎，尤其适用于大多数深度学习应用。而SGD在精心调参后可能找到泛化能力更好的模型最优解，但需要更多的调优经验。因此，Adam通常是默认的实用选择，而在追求极致模型性能时可以考虑SGD。
 
 ## 二、问题总结与体会
+通过本次实验的代码练习和理论思考，我对深度学习的基础概念有了更直观和深入的理解。
+在代码练习部分，我练习了pytorch基本的操作并且实现了基于PyTorch的螺旋数据分类。最初使用线性模型时，效果很不理想，之后，在模型中加入了ReLU激活函数构建两层神经网络后，决策边界开始出现弯曲，但是仅按照给的示例来操作效果是有但是很不理想，我在ai的帮助下又添加了一些内容才得到了一张弯曲程度（或者说是拟合程度？）和效果图差不多的结果。
+总而言之，本次实验让我不仅学习了人工智能的一些基本的知识，更通过代码运行和结果对比，明白了ReLU函数等其他手段的作用和重要性。
