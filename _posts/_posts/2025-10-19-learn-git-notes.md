@@ -13,42 +13,52 @@
 #### 1.1 MNIST数据集分类
 ##### 1.1.1 下载并打印数据
 使用MNIST下载数据
-<img width="1000" height="850" alt="6247d5a133ce5d8582ae2f2bb1d2e560" src="https://github.com/user-attachments/assets/5bf5048e-257f-4e03-917f-02eb1a140955" />
 
-<img width="1000" height="900" alt="bb4a5598ffc44cb30b44d367e8993981" src="https://github.com/user-attachments/assets/3de8d144-cbec-4518-82c1-df6014d9a77c" />
+<img width="500" height="400" alt="6247d5a133ce5d8582ae2f2bb1d2e560" src="https://github.com/user-attachments/assets/5bf5048e-257f-4e03-917f-02eb1a140955" />
+
+<img width="500" height="400" alt="bb4a5598ffc44cb30b44d367e8993981" src="https://github.com/user-attachments/assets/3de8d144-cbec-4518-82c1-df6014d9a77c" />
 
 
 ##### 1.1.2 分别在小型全连接网络和卷积神经网络上训练
 （1）小型全连接网络上
-<img width="1000" height="1000" alt="1f4f61c73279651288de3fb2dff7b0e7" src="https://github.com/user-attachments/assets/22e50e58-d5c2-4524-a26e-70a2717d5fcb" />
+
+<img width="500" height="400" alt="1f4f61c73279651288de3fb2dff7b0e7" src="https://github.com/user-attachments/assets/22e50e58-d5c2-4524-a26e-70a2717d5fcb" />
 
 （2）卷积网络
-<img width="1000" height="900" alt="6c7aff9fb124ed7d6a14ca02c94167e5" src="https://github.com/user-attachments/assets/6fa35118-efcf-4208-8a4d-449762de1930" />
+
+<img width="500" height="400" alt="6c7aff9fb124ed7d6a14ca02c94167e5" src="https://github.com/user-attachments/assets/6fa35118-efcf-4208-8a4d-449762de1930" />
 
 ##### 1.1.3 打乱数据顺序后再分别训练
 （1）小型全连接网络上
-<img width="1000" height="750" alt="a0f387d8413fc0766cb7a13d0d4910d2" src="https://github.com/user-attachments/assets/28b36c89-2e7f-4fed-b533-6c48a7370216" />
+
+<img width="500" height="400" alt="a0f387d8413fc0766cb7a13d0d4910d2" src="https://github.com/user-attachments/assets/28b36c89-2e7f-4fed-b533-6c48a7370216" />
 
 （2）卷积网络
-<img width="1000" height="700" alt="fcac2559cf1ddd3d79bd19bc25984199" src="https://github.com/user-attachments/assets/27b67246-0702-4c5e-a636-f2a61312eada" />
+
+<img width="500" height="400" alt="fcac2559cf1ddd3d79bd19bc25984199" src="https://github.com/user-attachments/assets/27b67246-0702-4c5e-a636-f2a61312eada" />
 
 #### 1.2 CIFAR10 数据集分类
 ##### 1.2.1 加载并归一化 CIFAR10 数据
-<img width="1000" height="1000" alt="f31fb4e804b0ce53d737b771183e1e70" src="https://github.com/user-attachments/assets/ad872ff3-2d29-412e-8e13-bf6ce3707ce8" />
+
+<img width="500" height="400" alt="f31fb4e804b0ce53d737b771183e1e70" src="https://github.com/user-attachments/assets/ad872ff3-2d29-412e-8e13-bf6ce3707ce8" />
 
 ##### 1.2.2 卷积网络训练
-<img width="1000" height="1000" alt="076fe42ff23317addf378a9925a6efda" src="https://github.com/user-attachments/assets/84e142b6-7437-4268-9aef-423a496df393" />
+
+<img width="500" height="400" alt="076fe42ff23317addf378a9925a6efda" src="https://github.com/user-attachments/assets/84e142b6-7437-4268-9aef-423a496df393" />
 
 ##### 1.2.3 测试训练结果
-<img width="1000" height="800" alt="6c7350312d602c0dd4291fc8c47ae3a7" src="https://github.com/user-attachments/assets/c0027923-1125-4891-b7fe-729d48d7ed5f" />
+
+<img width="500" height="400" alt="6c7350312d602c0dd4291fc8c47ae3a7" src="https://github.com/user-attachments/assets/c0027923-1125-4891-b7fe-729d48d7ed5f" />
 
 可以看到我这里训练的结果还是有1个出错的
 #### 1.3 VGG16对CIFAR10分类
 ##### 1.3.1 定义 dataloader并训练
-<img width="800" height="1000" alt="c02a62e396de1578814552a57aaf00c3" src="https://github.com/user-attachments/assets/af4851af-d72a-4f16-bb14-2067fefef5fd" />
+
+<img width="500" height="400" alt="c02a62e396de1578814552a57aaf00c3" src="https://github.com/user-attachments/assets/af4851af-d72a-4f16-bb14-2067fefef5fd" />
 
 ##### 1.3.2 测试验证准确率
-<img width="1200" height="600" alt="9b6fc28b02eafec2d90a74ec92113aee" src="https://github.com/user-attachments/assets/2034d654-c8fa-4b0d-af1b-d29c905a4bb6" />
+
+<img width="500" height="400" alt="9b6fc28b02eafec2d90a74ec92113aee" src="https://github.com/user-attachments/assets/2034d654-c8fa-4b0d-af1b-d29c905a4bb6" />
 
 ### 2. 问题总结
 #### 2.1 Adataloader 里面 shuffle 取不同值有什么区别？
